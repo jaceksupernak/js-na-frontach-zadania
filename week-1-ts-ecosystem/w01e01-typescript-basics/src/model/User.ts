@@ -1,10 +1,10 @@
 import { Address } from './Address';
 
-type User = {
+interface User {
   name: string;
   age: number;
   email: string;
   address: Address;
-};
+}
 
 export { User };
